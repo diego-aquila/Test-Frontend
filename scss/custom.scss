@@ -1,0 +1,79 @@
+.search-form-section {
+    background-color: $primary;	
+    background-image: linear-gradient(to right, $primary, $secondary);	
+    background-position: top left;	
+    background-size: 100%;	
+    background-repeat: repeat;	
+}
+
+.alert {
+
+    z-index: 999999;
+}
+
+.ui-datepicker-header {
+
+    background-color: $secondary;
+}
+
+#ui-datepicker-div {
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+
+    color: rgb(255, 255, 255) ; 
+    font-weight: bold;   
+
+}
+
+
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.ui-datepicker td span, .ui-datepicker td a:hover {
+
+    background-color: $gray-light;
+
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px;
+    background: url("../dist/img/arrowprev.png") no-repeat;
+}
+
+.ui-datepicker .ui-datepicker-next  {
+    right: 2px;
+    background: url("../dist/img/arrownext.png") no-repeat;
+}
+
+.ui-datepicker-calendar .ui-datepicker-unselectable td span  {
+
+    color: rgb(238, 238, 238) !important;
+} 
+
+.svg-inline--fa, .fa-clock {
+    
+    font-size: 20px;
+}
+
+svg:not(:root).svg-inline--fa {
+    
+    font-size: 12px;
+}
+
+.event-info {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+
+

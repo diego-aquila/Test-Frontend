@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./dist/main.css" />
+
+  <script src="./dist/main.js"></script>
+
+
+
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light py-5 ">
+    <div class="row w-100 mx-auto d-flex justify-content-center">
+      <img src="./dist/img/logo.png" class="col-3 col-6 col-lg-3 col-md-4 img-fluid logo">
+    </div>
+  </nav>
+  <section class="search-form-section py-4  py-lg-5 sectionsearch">
+    <div class="container">
+      <div class="row">
+        <div class="text-center mb-3 mb-lg-0 text-lg-left col-lg-7">
+          <h1 class="text-white">Search for events</h1>
+          <p class="mb-0 d-none d-md-block text-muted">Take advantage of the event schedule we have prepared for you!
+          </p>
+        </div>
+        <div class="align-items-center col-lg-5 d-flex justify-content-center">
+          <div class="alert alert-danger position-absolute e w-100  d-none">Select the end date greater than the start date</div>
+          <form class="basic-bootstrap-form row" id="searchform">
+            <div class="col mb-2 mb-md-0">
+              <input required type="from" class="form-control form-datepicker" placeholder="from" id="from">
+            </div>
+            <div class="col mb-2 mb-md-0">
+              <input required type="to" class="form-control form-datepicker" placeholder="to" id="to">
+            </div>
+            <div class="col-12 col-md-auto">
+              <button class="btn d-flex justify-content-center w-100 btn-light " id="form-submit" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="py-5 bg-gray-light">
+    <div class="w-100 container-fluid">
+      <div class="row mb-4">
+        <div class="col-md-12 text-center">
+          <i class="far fa-calendar-alt"></i>
+          <h2 id="searchresults">Monthly events</h2>
+        </div>
+      </div>
+      <div id="showloading" class="text-center d-none">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <div id="resultsevents" class="row justify-content-center mx-auto w-100">
+      </div>
+    </div>
+  </section>
+</body>
+<footer class="py-3 bg-light">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="align-items-center col-3 col-lg-1 d-flex p-3 text-center"> 
+        <img src="./dist/img/logo.png" class="img-fluid "> </div>
+      <div class="col-md-4 col-9 p-3">
+        <p class="text-dark"> <a href="https://goo.gl/maps/AUq7b9W7yYJ2" target="_blank" class="text-dark"> Fake
+            street, 100 <br>NYC - 20179, USA</a> </p>
+        <p class="text-dark"> <a href="tel:+246 - 542 550 5462" class="text-dark">+1 - 256 845 87 86</a> </p>
+        <p class="mb-0"> <a href="mailto:contato@diegoaquila.com.br" class="text-dark">contato@diegoaquila.com.br</a> </p>
+      </div>
+      <div class="col-md-4 p-3">
+        <h5> <b>About</b> </h5>
+        <p class="mb-0" > Project developed as fulfillment of the task requested by the company Lottaleben for
+          candidates who wish to fill the vacancy as a front-end developer.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="mb-0 mt-2">2020 / May - Test project developed by Diego Áquila</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</html>
