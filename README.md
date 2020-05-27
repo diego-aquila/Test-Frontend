@@ -1,5 +1,7 @@
 # Test Frontend
- Test desenvolvido por Diego Áquila como atividade para vaga de Desenvolvedor Front End
+
+Test application developed by Diego Áquila in order to fill the vacancy of Front-end Developer
+The application consists of recovering data with recurrence showing the user the data based on its insertion.
 
 ## Install
 To install project run
@@ -13,4 +15,7 @@ npm run build
 ````
 
 ## Contacts
-[Nome](url)
+
+**Name:** Diego Áquila Almeida Sampaio
+**E-mail:** diego@amoremfotos.com.br
+[Whatsapp](https://wa.me/557799100208)
