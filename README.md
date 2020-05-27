@@ -16,6 +16,8 @@ npm run build
 
 ## Contacts
 
-**Name:** Diego Áquila Almeida Sampaio
-**E-mail:** diego@amoremfotos.com.br
+**Name:** Diego Áquila Almeida Sampaio  
+
+**E-mail:** diego@amoremfotos.com.br  
+
 [Whatsapp](https://wa.me/557799100208)
